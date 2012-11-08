@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  theen1: MyString
+  theen2: MyString
+  theen3: MyString
+  theen4: MyString
+
+two:
+  theen1: MyString
+  theen2: MyString
+  theen3: MyString
+  theen4: MyString

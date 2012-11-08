@@ -1,0 +1,27 @@
+<h1>3 Awesome Theens about Stephanie Hay</h1>
+
+<table>
+  <tr>
+    <th>Theen1</th>
+    <th>Theen2</th>
+    <th>Theen3</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tags.each do |tag| %>
+  <tr>
+    <td><%= tag.theen1 %></td>
+    <td><%= tag.theen2 %></td>
+    <td><%= tag.theen3 %></td>
+    <td><%= link_to 'Show', tag %></td>
+    <td><%= link_to 'Edit', edit_tag_path(tag) %></td>
+    <td><%= link_to 'Destroy', tag, method: :delete, data: { confirm: 'Wait, are you super sure about that?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Tag', new_tag_path %>
